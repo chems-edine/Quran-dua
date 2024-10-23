@@ -41,3 +41,29 @@ body {
 .card p br {
     margin-bottom: 10px;
 }
+
+.note {
+    background-color: #fff;
+    border: 2px solid #c49b66;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#toggleNote {
+    background-color: #c49b66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#toggleNote:hover {
+    background-color: #a88b58;
+}
